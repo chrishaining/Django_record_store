@@ -1,0 +1,20 @@
+[
+  {
+  "model": "inventory.Artist",
+  "fields": {
+    "name": "The Animals"
+  }
+},
+{
+"model": "inventory.Artist",
+"fields": {
+  "name": "The Monkees"
+}
+},
+{
+"model": "inventory.Artist",
+"fields": {
+  "name": "Gorillaz"
+}
+}
+]
