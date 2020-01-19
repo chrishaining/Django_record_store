@@ -1,15 +1,14 @@
-h1 a, h2 a {
-    color: lightsteelblue;
-    font-family: 'Lobster';
+h1, h2 {
+  color: #000000;
+  /* font-family: 'Lobster'; */
 }
 
 body{
-  color: ghostwhite;
-  background-image: url("/static/images/background.png");
-  background-repeat: no-repeat;
+  color: #000000;
+  /* background-image: url("/static/images/zoo.png"); */
+  /* background-repeat: no-repeat; */
   background-size: cover;
-  padding-left: 15px;
-
+  /* padding-left: 15px; */
 }
 
 .page-header {
@@ -26,19 +25,57 @@ body{
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
-    color: ghostwhite;
+/* .row {
+  flex-wrap: nowrap;
+} */
+
+.card {
+  background-color: #3C1A5B;
+  color: #FFF748;
+  padding: 0 20px 0px 10px;
+  margin-bottom: 70px;
+}
+
+.card-body {
+  list-style-type: none;
+  color: #FFF748;
 }
 
 .inventory-item {
-  list-style-type: square;
-  color: ghostwhite;
+  list-style-type: none;
+  color: #FFF748;
+  margin-bottom:70px;
 }
 
-.nav {
+.container-fluid {
+  color: #FFF748;
+  background-color: #3C1A5B;
+}
+
+/* .navbar {
+  color: #FFF748;
+  background-color: #3C1A5B;
+} */
+
+.navbar-nav {
   list-style-type: none;
 }
+
+.nav-item {
+  list-style-type: none;
+  color: #FFF748
+} 
+
+.navbar-brand {
+  list-style-type: none;
+  color: #FFF748
+} 
+
+/* a {
+  color: white;
+  font-weight: bold
+} */
+
 
 input {
   color: black;
@@ -71,6 +108,3 @@ width: 100px;
       float: right;
 }
 
-.inventory-item {
-    margin-bottom:70px;
-}

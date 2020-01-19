@@ -2,16 +2,21 @@
 
 {% block content %}
 
-<div class="content container">
+<div class="content-container-fluid">
 	<div class="row">
-		<div class="col-md-8">
+		<div class="col-sm-12-md-6">
 			{% for artist in artists %}
-			<div class="inventory-item">
-			<h2>{{ artist.name }}</h2>
-			{% for album in artist.album_set.all %}
-				<li>{{ album.title }} - {{ album.year }}</li>
-
-			{% endfor %}
+			<div class="card"> 
+				<div class="inventory-item">
+					<div class="card-header">
+						<h3>{{ artist.name }}</h3>
+					</div>
+					{% for album in artist.album_set.all %}
+					<div class="card-body">
+						<li>{{ album.title }} - {{ album.year }}</li>
+					</div>
+					{% endfor %}
+				</div>
 			</div>
 			{% endfor %}
 

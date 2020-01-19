@@ -1,12 +1,14 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h2>New Album</h2>
-<form method="POST" class="inventory-form">
-  {% csrf_token %}
-  <div class="form-group">
-    {{ form.as_p }}
-  </div>
-  <button type="submit" class="save btn btn-default">Save</button>
-</form>
-{% endblock %}
+<div class="card">
+  <h3>New Album</h3>
+  <form method="POST" class="inventory-form">
+    {% csrf_token %}
+    <div class="form-group">
+      {{ form.as_p }}
+    </div>
+    <button type="submit" class="save btn btn-default">Save</button>
+  </form>
+  </class>
+  {% endblock %}
