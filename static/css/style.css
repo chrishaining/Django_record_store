@@ -32,19 +32,22 @@ body{
 .card {
   background-color: #3C1A5B;
   color: #FFF748;
-  padding: 0 20px 0px 10px;
+  padding: 10px 20px 20px 10px;
   margin-bottom: 70px;
 }
 
 .card-body {
   list-style-type: none;
   color: #FFF748;
+  padding: 0 20px 0px 10px;
 }
 
 .inventory-item {
   list-style-type: none;
   color: #FFF748;
   margin-bottom:70px;
+  padding: 0 20px 0px 10px;
+
 }
 
 .container-fluid {
@@ -65,6 +68,9 @@ body{
   list-style-type: none;
   color: #FFF748
 } 
+
+/* .navbar-toggler {
+} */
 
 .navbar-brand {
   list-style-type: none;
