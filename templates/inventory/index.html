@@ -13,7 +13,9 @@
 					</div>
 					{% for album in artist.album_set.all %}
 					<div class="card-body">
-						<li>{{ album.title }} - {{ album.year }}</li>
+						<li>{{ album.title }} - {{ album.year }}
+							<button type="button" class="btn btn-light"> Delete this Album</button>
+						</li>
 					</div>
 					{% endfor %}
 				</div>
